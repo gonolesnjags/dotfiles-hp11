@@ -191,3 +191,4 @@ bar {
 }
 
 exec_always sh -c 'xrdb ~/.Xresources'
+exec_always sh -c 'feh --bg-scale ~/.config/wallpapers/low_poly_mountains.png'
