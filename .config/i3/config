@@ -178,6 +178,16 @@ bar {
 	position top
 	font pango:RobotoMono 8
         tray_output primary
+        colors {
+		background		$drkgry
+		separator		$base1
+		# workspace colors
+		# 			border		background	text
+		focused_workspace	$drkgry		$drkgry		$blue
+		inactive_workspace	$drkgry		$drkgry		$base1
+		urgent_workspace	$drkgry		$drkgry		$red
+	
+	}
 }
 
 exec_always sh -c 'xrdb ~/.Xresources'
