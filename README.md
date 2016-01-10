@@ -1,6 +1,8 @@
 # dotfiles-hp11
 
-This repository contains the dotfiles that I use on my Chromebook HP11 running Arch Linux Arm.
+This repository contains the dotfiles that I use on my Chromebook HP11 running Arch Linux ARM.
+
+The method of installing Arch Linux ARM is found at [starkers/archbook](https://github.com/starkers/archbook).
 
 ## Screenshot
 
